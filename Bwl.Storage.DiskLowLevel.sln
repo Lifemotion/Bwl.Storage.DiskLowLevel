@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Bwl.Storage.DiskLowLevel", "Bwl.Storage.DiskLowLevel\Bwl.Storage.DiskLowLevel.vbproj", "{F969013F-346A-42AB-B3E4-C954AD987DF8}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Bwl.Storage.DiskLowLevel.Test", "Bwl.Storage.DiskLowLevel.Test\Bwl.Storage.DiskLowLevel.Test.vbproj", "{62D92BB2-9E3E-4DD1-A723-58C781376234}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F969013F-346A-42AB-B3E4-C954AD987DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F969013F-346A-42AB-B3E4-C954AD987DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F969013F-346A-42AB-B3E4-C954AD987DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F969013F-346A-42AB-B3E4-C954AD987DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62D92BB2-9E3E-4DD1-A723-58C781376234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D92BB2-9E3E-4DD1-A723-58C781376234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D92BB2-9E3E-4DD1-A723-58C781376234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D92BB2-9E3E-4DD1-A723-58C781376234}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
