@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("bwl.System.Disks.LowlevelAccess")> 
+<Assembly: AssemblyTitle("Bwl.Storage.DiskLowLevel")>
 <Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("bwl.System.Disks.LowlevelAccess")> 
+<Assembly: AssemblyCompany("")>
+<Assembly: AssemblyProduct("Bwl.Storage.DiskLowLevel")>
 <Assembly: AssemblyCopyright("Copyright ©  2010")> 
 <Assembly: AssemblyTrademark("")> 
 
@@ -33,3 +33,4 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyVersion("1.0.0.0")> 
 <Assembly: AssemblyFileVersion("1.0.0.0")> 
+<Assembly: AssemblyInformationalVersion("{c:ymd.} {c:hms:} {chash:6}")>

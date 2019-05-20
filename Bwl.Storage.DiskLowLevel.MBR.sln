@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Bwl.Storage.DiskLowLevel", "Bwl.Storage.DiskLowLevel\Bwl.Storage.DiskLowLevel.vbproj", "{F969013F-346A-42AB-B3E4-C954AD987DF8}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "bwl.Systems.Disks.MBRInstaller", "Bwl.Storage.DiskLowLevel.MBR\bwl.Systems.Disks.MBRInstaller.vbproj", "{7440830B-CA41-4F3B-8613-1E8E10FE203F}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Bwl.Systems.Disks.MBRInstaller", "Bwl.Storage.DiskLowLevel.MBR\Bwl.Systems.Disks.MBRInstaller.vbproj", "{7440830B-CA41-4F3B-8613-1E8E10FE203F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,5 +33,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DBDA363-A7E6-4E4B-8D0C-29A44EED6635}
 	EndGlobalSection
 EndGlobal
