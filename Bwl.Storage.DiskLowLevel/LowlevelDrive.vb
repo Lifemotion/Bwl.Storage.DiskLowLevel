@@ -1,5 +1,6 @@
 ﻿Imports System.Runtime.InteropServices
 Imports Microsoft.Win32.SafeHandles
+
 Public Class LowLevelDrive
 #Region "Win32Imports"
 
@@ -90,7 +91,7 @@ Public Class LowLevelDrive
             _fileStream = New IO.FileStream(_driveHandle, IO.FileAccess.ReadWrite, 1)
         Else
             _fileStream = Nothing
-            Throw New Exception("DriveHandle IiInvalid (open failed)")
+            Throw New Exception("Не могу открыть диск!")
         End If
     End Sub
 
@@ -101,7 +102,7 @@ Public Class LowLevelDrive
             _fileStream = New IO.FileStream(_driveHandle, IO.FileAccess.ReadWrite, 1)
         Else
             _fileStream = Nothing
-            Throw New Exception("DriveHandle IiInvalid (open failed)")
+            Throw New Exception("Не могу открыть диск!")
         End If
     End Sub
 
@@ -112,7 +113,7 @@ Public Class LowLevelDrive
             _fileStream = New IO.FileStream(_driveHandle, IO.FileAccess.ReadWrite, 1)
         Else
             _fileStream = Nothing
-            Throw New Exception("DriveHandle IiInvalid (open failed)")
+            Throw New Exception("Не могу открыть диск!")
         End If
     End Sub
 
